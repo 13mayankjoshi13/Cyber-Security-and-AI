@@ -1,0 +1,72 @@
+What is an Outlier?
+
+An outlier is a data point that is very different from the other data points.
+
+Simply:
+
+An outlier is a value that is unusually far away from the normal pattern of the data.
+
+Example
+
+Suppose we have:
+
+10, 12, 11, 13, 12, 100
+
+Most values are around 10–13, but:
+
+100
+
+is very far away.
+
+So 100 is an outlier.
+
+In Linear Regression
+
+Suppose our data is:
+
+X    Y
+
+1    20
+2    30
+3    40
+4    50
+5    60
+
+These points follow a clear pattern:
+
+X increases → Y increases
+
+Now add:
+
+6    120
+
+Normally, based on the pattern, X = 6 would give around Y = 70.
+
+But we have:
+
+X = 6
+Y = 120   ← Outlier
+
+So this is an outlier because it is far away from the normal pattern.
+
+Why are outliers important?
+
+If you train Linear Regression with the outlier, the model can be affected:
+
+Normal data → normal regression line
+
+Outlier included → line gets pulled toward the outlier
+
+That's why we often need to detect and handle outliers before training a model.
+
+Easy real-life example
+
+Imagine exam marks:
+
+45, 50, 48, 52, 47, 49, 95
+
+Most students scored around 45–52, but one student scored 95.
+
+95 is an unusual value compared with the rest, so it may be an outlier.
+
+Important: An outlier isn't necessarily a mistake. It could be a genuine unusual observation.
