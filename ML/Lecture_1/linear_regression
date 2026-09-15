@@ -1,0 +1,33 @@
+What is Linear Regression?
+
+Linear Regression tries to find a straight line that represents the relationship between X and Y.
+
+The basic equation is:
+
+$$ Y = mX + c $$
+
+Where:
+
+Symbol	Meaning
+X	Input
+Y	Output
+m	Slope
+c	Intercept
+
+For our data:
+
+X     Y
+1     20
+2     30
+3     40
+4     50
+5     60
+
+The model finds:
+
+$$ Y = 10X + 10 $$
+
+So:
+
+m = 10
+c = 10
