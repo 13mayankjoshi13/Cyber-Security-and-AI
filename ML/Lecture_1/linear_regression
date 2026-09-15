@@ -4,7 +4,7 @@ Linear Regression tries to find a straight line that represents the relationship
 
 The basic equation is:
 
-$$ Y = mX + c $$
+Y = mX + c 
 
 Where:
 
@@ -25,7 +25,7 @@ X     Y
 
 The model finds:
 
-$$ Y = 10X + 10 $$
+Y = 10X + 10
 
 So:
 
