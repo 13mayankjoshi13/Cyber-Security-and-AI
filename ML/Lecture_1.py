@@ -17,3 +17,6 @@ new_x = [[6]]
 prediction = model.predict(new_x)
 
 print("Predicted Y:", prediction[0])
+
+#OUTPUT
+Predicted Y: 70.0
